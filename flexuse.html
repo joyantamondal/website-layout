@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Use</title>
+    <script src="https://kit.fontawesome.com/a34e80b072.js" crossorigin="anonymous"></script>
+    <style>
+         .login-container{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+        .login-container input, button{
+            font-size: 1.3em;
+            margin-top: 15px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            border-radius: ;
+        }
+        .login-container button{
+            background-color: orangered;
+            color: whitesmoke;
+            font-weight: 700;
+        }
+        .fas{
+            /* background-color: lightgreen; */
+        }
+        nav a{
+           text-decoration: none;
+           color: black;
+           margin-right: 20px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+            <a href="">Home</a>
+            <a href="">Product</a>
+            <a href="">Orders</a>
+            <a href="">About Us</a>
+            </span>
+            <span>
+            <a href=""><i class="fas fa-user"></i></a>
+            <a href=""><i class="fas fa-sign-out-alt"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-container">
+        <form action="" class="login-form">
+            <h2>Login</h2>
+            <input type="email" name="email" placeholder="Your Email" id="" required>
+            <input type="password" name="password" placeholder="Your Password" id="" required>
+            <button type="submit">Login</button>
+        </form>
+
+    </section>
+</body>
+</html>
