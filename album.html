@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame{
+            width: 300px;
+            
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+        }
+        .photo img{
+            width: 100%;;
+            border-radius: 10px;
+        }
+        .photo-details{
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+        }
+        .photo-frame:hover .photo-details{
+            display: block;
+            background-color: rgba(218, 165, 32, 0.563);
+            color: white;
+        }
+        .photo-details h3{
+            background-color: tomato;
+            color: white;
+            text-align: center;
+        }
+        .photo-frame:hover .photo{
+            /* transform: scale(1.5) rotate(360deg); */
+            transform: scale(1.5);
+            /* transform: scale(1.5) skew(-30deg); */
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Awesome Photo Album with Tiger Images</h1>
+    <section>
+        <h3>Tiger Album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="tiger">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus saepe doloremque accusamus debitis labore aliquid laborum non, delectus, unde error et perspiciatis impedit quis rem. Minus excepturi</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="tiger">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus saepe doloremque accusamus debitis labore aliquid laborum non, delectus, unde error et perspiciatis impedit quis rem. Minus excepturi</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="tiger">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus saepe doloremque accusamus debitis labore aliquid laborum non, delectus, unde error et perspiciatis impedit quis rem. Minus excepturi</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="tiger">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus saepe doloremque accusamus debitis labore aliquid laborum non, delectus, unde error et perspiciatis impedit quis rem. Minus excepturi</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="tiger">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus saepe doloremque accusamus debitis labore aliquid laborum non, delectus, unde error et perspiciatis impedit quis rem. Minus excepturi</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="tiger">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus saepe doloremque accusamus debitis labore aliquid laborum non, delectus, unde error et perspiciatis impedit quis rem. Minus excepturi</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="tiger">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus saepe doloremque accusamus debitis labore aliquid laborum non, delectus, unde error et perspiciatis impedit quis rem. Minus excepturi</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="tiger">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus saepe doloremque accusamus debitis labore aliquid laborum non, delectus, unde error et perspiciatis impedit quis rem. Minus excepturi</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="tiger">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus saepe doloremque accusamus debitis labore aliquid laborum non, delectus, unde error et perspiciatis impedit quis rem. Minus excepturi</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="tiger">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia necessitatibus saepe doloremque accusamus debitis labore aliquid laborum non, delectus, unde error et perspiciatis impedit quis rem. Minus excepturi</p>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+</body>
+</html>
